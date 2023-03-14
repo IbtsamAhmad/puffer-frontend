@@ -47,15 +47,27 @@ const Footer = () => {
               </li>
             </ul>
             <div className="icons">
-              <a href="https://twitter.com/pufferfishai" target="_blank">
+              <a
+                href="https://twitter.com/pufferfishai"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
                 <img src={Twitter} alt="" />
               </a>
-              <a href="https://www.tiktok.com/@pufferfish.ai" target="_blank">
+              <a
+                href="https://www.tiktok.com/@pufferfish.ai"
+                target="_blank"
+                rel="noreferrer"
+              >
                 {" "}
-                <img src={Tiktok} alt=""  className="tik"/>
+                <img src={Tiktok} alt="" className="tik" />
               </a>
-              <a href="facebook.com/pufferfishaiapp/" target="_blank">
+              <a
+                href="facebook.com/pufferfishaiapp/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={Facebook} alt="" />
               </a>
             </div>
