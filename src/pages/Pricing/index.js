@@ -28,16 +28,28 @@ const Pricing = () => {
                   </h3>
                   <ul>
                     <li>
-                      <span>1</span>3 free credits to start
+                      <div className="list-num">
+                        <span>1</span>
+                      </div>
+                      3 free credits to start
                     </li>
                     <li>
-                      <span>2</span>Instant access
+                      <div className="list-num">
+                        <span>2</span>
+                      </div>
+                      Instant access
                     </li>
                     <li>
-                      <span>3</span>No commitment
+                      <div className="list-num">
+                        <span>3</span>
+                      </div>
+                      No commitment
                     </li>
                     <li>
-                      <span>4</span>3 credits = 3 cover letters
+                      <div className="list-num">
+                        <span>4</span>
+                      </div>
+                      3 credits = 3 cover letters
                     </li>
                   </ul>
                   <Button className="try-btn">Try pufferfish.ai</Button>
@@ -51,19 +63,28 @@ const Pricing = () => {
                   </h3>
                   <ul>
                     <li>
-                      <span>1</span>Affordable option
+                      <div className="list-num">
+                        <span>1</span>
+                      </div>
+                      Affordable option
                     </li>
                     <li>
-                      <span>2</span>Quick and simple
+                      <div className="list-num">
+                        <span>2</span>
+                      </div>
+                      Quick and simple
                     </li>
                     <li>
-                      <span>3</span>Ideal for trial
+                      <div className="list-num">
+                        <span>3</span>
+                      </div>
+                      Ideal for trial
                     </li>
                     <li>
-                      <span>3</span>Ideal for trial
-                    </li>
-                    <li>
-                      <span>4</span>10 credits = 10 cover letters
+                      <div className="list-num">
+                        <span>4</span>
+                      </div>
+                      10 credits = 10 cover letters
                     </li>
                   </ul>
                   <Button className="try-btn">Try pufferfish.ai</Button>
@@ -77,19 +98,29 @@ const Pricing = () => {
                   </h3>
                   <ul>
                     <li>
-                      <span>1</span>Ideal for frequent users
+                      <div className="list-num">
+                        <span>1</span>
+                      </div>
+                      Ideal for frequent users
                     </li>
                     <li>
-                      <span>2</span>Optimal value proposition
+                      <div className="list-num">
+                        <span>2</span>
+                      </div>
+                      Optimal value proposition
                     </li>
                     <li>
-                      <span>3</span>Cost effective
+                      <div className="list-num">
+                        <span>3</span>
+                      </div>
+                      Cost effective
                     </li>
+               
                     <li>
-                      <span>3</span>Ideal for trial
-                    </li>
-                    <li>
-                      <span>4</span>50 credits = 50 cover letters
+                      <div className="list-num">
+                        <span>4</span>
+                      </div>
+                      50 credits = 50 cover letters
                     </li>
                   </ul>
                   <Button className="try-btn">Try pufferfish.ai</Button>
@@ -103,19 +134,28 @@ const Pricing = () => {
                   </h3>
                   <ul>
                     <li>
-                      <span>1</span>Find the best job
+                      <div className="list-num">
+                        <span>1</span>
+                      </div>
+                      Find the best job
                     </li>
                     <li>
-                      <span>2</span>Maximum convenience
+                      <div className="list-num">
+                        <span>2</span>
+                      </div>
+                      Maximum convenience
                     </li>
                     <li>
-                      <span>3</span>Cost effective
+                      <div className="list-num">
+                        <span>3</span>
+                      </div>
+                      Unbeatable savings
                     </li>
                     <li>
-                      <span>3</span>Unbeatable savings
-                    </li>
-                    <li>
-                      <span>4</span>100 credits = 100 cover letters
+                      <div className="list-num">
+                        <span>4</span>
+                      </div>
+                      100 credits = 100 cover letters
                     </li>
                   </ul>
                   <Button className="try-btn">Try pufferfish.ai</Button>

@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Form, Button, Container, Row, Col } from "react-bootstrap";
 
 const Login = () => {
+   const queryParameters = new URLSearchParams(window.location.search);
+    const type = queryParameters.get("type");
   const [loginDetail, setLoginDetail] = useState({
     username: "",
     password: "",
@@ -15,7 +17,7 @@ const Login = () => {
   });
   const [loginChecked, setLoginChecked] = useState(true);
   const [signupChecked, setSignupChecked] = useState(true);
-  const [signupForm, setSignupForm] = useState(false);
+  const [signupForm, setSignupForm] = useState(type === "login" ? false : true);
   const [resetForm, setResetForm] = useState(false);
   const [resetBtnDisable,setResetBtnDisable] = useState(true)
 

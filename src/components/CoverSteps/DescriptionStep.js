@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { Form, Button, Row, Col, Tabs, Tab } from "react-bootstrap";
 const PageTwo = ({ onButtonClick }) => {
+
+   const [numCount, setNumCount] = useState(0);
+
+   const descriptionHandler = (e) => {
+     setNumCount(e.target.value.length);
+   };
+
   return (
     <section className="aboutCover-container">
       <h2>Job Description</h2>
@@ -9,8 +16,8 @@ const PageTwo = ({ onButtonClick }) => {
           <h3>The Job Description</h3>
           <ul>
             <li>
-              <img src="/assets/list.png" alt="list" />Let us know about the
-              job you're applying for
+              <img src="/assets/list.png" alt="list" />
+              Let us know about the job you're applying for
             </li>
             <li>
               {" "}
@@ -42,10 +49,12 @@ const PageTwo = ({ onButtonClick }) => {
             as="textarea"
             placeholder=""
             defaultValue=""
+            maxLength={4000}
+            onChange={descriptionHandler}
             //   className="profile-input"
           />
         </Form.Group>
-        <div className="textCountTow">0 of 4,000</div>
+        <div className="textCountTow">{numCount} of 4,000</div>
         <Form.Group className="description-buttons" controlId="formBasicEmail">
           <Button
             variant="primary"

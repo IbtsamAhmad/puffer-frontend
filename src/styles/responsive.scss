@@ -1,15 +1,17 @@
-@media screen and (max-width: 768px) {
-  .App{
-    width: 100%;
-    overflow: hidden;
-  }
-.authNavbar-container .nav-buttons .nav-profile {
-        right: 18%;
+@media screen and (min-width: 770px) and (max-width:1000px) {
+    .footer-container .footer-content .footer-logo {
+        width: 200px;
     }
-        .authNavbar-container .navbar-logo {
-            left: -45px;
-        }
-    
+}
+
+
+@media screen and (max-width: 768px) {
+    .App {
+        width: 100%;
+        overflow: hidden;
+    }
+
+
     .navbar-nav {
         transform: translateY(0px) translateX(0px);
         transition: transform 400ms ease 0s;
@@ -32,6 +34,7 @@
             display: inline-block;
             padding-top: 10px;
             padding-bottom: 10px;
+            margin-bottom: 10px;
         }
 
         .nav-login-btn {
@@ -41,7 +44,54 @@
 
         .nav-sign-btn {
             margin: 0;
+            margin-left: 15px;
         }
+    }
+
+   .overlay-container {
+       position: absolute !important;
+top: 0%;
+    right: 10%;
+   }
+
+    .authNavbar-container {
+
+        .overlay-container {
+                position: absolute !important;
+            }
+        .navbar-toggler {
+            padding-right: 20px;
+        }
+
+        .navbar {
+            position: relative;
+            background: white !important;
+            justify-content: space-between;
+        }
+
+     
+
+        .nav-buttons {
+            width: 100%;
+            flex-direction: column;
+
+            .nav-profile {
+                // top: -13%;
+                //     z-index: 10;
+                //     right: 10%;
+            }
+
+            .nav-creditsBtn {
+                width: 100%;
+            }
+
+            .nav-letterBtn {
+                width: 100%;
+                margin-top: 15px;
+            }
+
+        }
+
     }
 
     .home-page-container {
@@ -87,7 +137,7 @@
 
 
                 h1 {
-
+                    padding-left: 20px;
 
                     span {}
                 }
@@ -152,7 +202,7 @@
 
 
         .home-features-container {
-
+            padding-top: 25px;
 
 
             h1 {
@@ -214,7 +264,7 @@
         }
 
         .home-plans-container {
-
+            padding-top: 40px;
 
             h1 {
                 margin-top: 40px;
@@ -499,9 +549,10 @@
 
         .about-form {
             width: 90%;
-                    .textCount {
-                        // bottom: 170px;
-                    }
+
+            .textCount {
+                // bottom: 170px;
+            }
 
             .description-list {
 
@@ -519,7 +570,9 @@
             .description-buttons {
                 margin-bottom: 80px;
 
-                .description-btn {}
+                .description-btn {
+                    margin-right: 0;
+                }
             }
 
             .form-label {}
@@ -529,18 +582,23 @@
             textarea {}
 
             .about-btn {
-                margin-bottom: 80px;
+                margin-bottom: 100px;
             }
         }
     }
+
     .progress-container {}
+
     .indexedStep {}
 
     .indexedStep.accomplished {}
+
     .RSPBprogressBar {
         width: 85%;
     }
+
     .RSPBprogressBar .RSPBstep {}
+
     .RSPBprogressBar .RSPBprogressBarText {}
 
     .title-one {
@@ -556,131 +614,95 @@
         // height: 15px;
         // font-size: 6px;
     }
-    
-        .price-page-container {
+
+    .price-page-container {
         overflow: hidden;
-            padding: 15px;
-            width: 100%;
-    
-            h1 {
-          padding: 40px 10px;
-            }
-    
-            h2 {
-     
-            }
-    
-            .pricing-columns-container {
-     
-               flex-direction: column;
-                .pricing-column {
-              margin: 10 0;
-    
-                    h1 {
-
-                    }
-    
-                    h2 {
-
-                    }
-    
-                    h3 {
-
-    
-                        span {
-
-                        }
-    
-                        .spanTwo {
-                  
-                        }
-                    }
-    
-                    .top-up-btn {
-           
-                    }
-    
-                    ul {
-          
-    
-                        li {
-              
-                        }
-                    }
-    
-                    p {
-    
-                    }
-                }
-    
-                .column-two {
-             
-    
-                    .colTwo-heading {
-       
-                    }
-    
-        
-                    h1 {
-              
-                    }
-    
-                    h2 {
-   
-                    }
-    
-                    p {
-         
-                    }
-    
-                    h3 {
-
-    
-                        span {
-          
-                        }
-    
-                        .spanTwo {
-         
-                        }
-                    }
-    
-                    ul {
-                        li {
-           
-                        }
-                    }
-                }
-            }
-    
-            .faq-container {
-   align-items: flex-start;
-                h1 {
-
-                }
-    
-                .question-container {
-        width: 95%;
-            margin: 30px auto;
-    
-                    .question {
-           
-                    }
-    
-                    .answer {
-                
-                    }
-                }
-            }
-    
-            .support-container {
+        padding: 15px;
         width: 100%;
-    
-                p {
 
+        h1 {
+            padding: 40px 10px;
+        }
+
+        h2 {}
+
+        .pricing-columns-container {
+
+            flex-direction: column;
+
+            .pricing-column {
+                margin: 10 0;
+
+                h1 {}
+
+                h2 {}
+
+                h3 {
+
+
+                    span {}
+
+                    .spanTwo {}
+                }
+
+                .top-up-btn {}
+
+                ul {
+
+
+                    li {}
+                }
+
+                p {}
+            }
+
+            .column-two {
+
+
+                .colTwo-heading {}
+
+
+                h1 {}
+
+                h2 {}
+
+                p {}
+
+                h3 {
+
+
+                    span {}
+
+                    .spanTwo {}
+                }
+
+                ul {
+                    li {}
                 }
             }
         }
+
+        .faq-container {
+            align-items: flex-start;
+
+            h1 {}
+
+            .question-container {
+                width: 95%;
+                margin: 30px auto;
+
+                .question {}
+
+                .answer {}
+            }
+        }
+
+        .support-container {
+            width: 100%;
+
+            p {}
+        }
+    }
 
 
 

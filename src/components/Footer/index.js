@@ -18,13 +18,13 @@ const Footer = () => {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/">How it Works</a>
+                <a href="/how">How it Works</a>
               </li>
               <li>
-                <a href="/">Pricing</a>
+                <a href="/pricing">Pricing</a>
               </li>
               <li>
-                <a href="/">About</a>
+                <a href="/about">About</a>
               </li>
             </ul>
           </Col>
@@ -74,6 +74,8 @@ const Footer = () => {
           </Col>
         </Row>
       </div>
+      <div className="footer-line" />
+      <p className="copy-right">Copyright © 2023 pufferfish.ai</p>
     </div>
   );
 };

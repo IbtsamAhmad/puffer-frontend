@@ -417,11 +417,12 @@
 
         .home-plans-row {
             max-width: 1200px;
-            width: 1200px;
+            width: 100%;
             display: flex;
             align-items: center;
             justify-content: space-between;
-
+            flex-wrap: wrap;
+            padding: 0 20px;
             .home-plan {
                 display: flex;
                 align-items: center;
@@ -487,8 +488,10 @@
                         font-weight: 400;
                         color: rgba(63, 66, 84, 1);
                         margin: 10px 0;
+                        display: flex;
+                        align-items: center;
 
-                        span {
+                        .list-num {
                             margin-right: 15px;
                             border-radius: 50%;
                             background-color: #f1ffd7;
@@ -496,7 +499,14 @@
                             font-size: 16px;
                             font-weight: 700;
                             text-align: center;
-                            padding: 4px 10px;
+                            width: 30px;
+                            height: 30px;
+                             display: flex;
+                             align-items: center;
+                             justify-content: center;
+                            span{
+                       
+                            }
                         }
                     }
                 }

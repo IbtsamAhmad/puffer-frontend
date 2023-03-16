@@ -10,9 +10,11 @@ const How = () => {
         <div className="page-header">
           <h1>This is what we'll create for you</h1>
           <h2>How It Works</h2>
-          <a>Try pufferfish.ai</a>
+          <a href="/login?type=signup">Try pufferfish.ai</a>
         </div>
-        <div className="div-block"></div>
+        <div className="magic-block-down" />
+
+        {/* <div className="div-block"></div> */}
         <div className="example-container">
           <Row>
             <Col lg={6} md={6} sm={12} className="example-Col">
@@ -100,6 +102,10 @@ const How = () => {
                   </p>
                   <p>
                     <span>3</span>
+                    Experience
+                  </p>
+                  <p>
+                    <span>4</span>
                     Skills
                   </p>
                 </div>
@@ -108,7 +114,7 @@ const How = () => {
             </Col>
             <Col lg={6} md={6} sm={12}>
               <div className="about-colTwo">
-                <img src="/assets/aboutPage.png" alt="aboutPage" />
+                <img src="/assets/11.png" alt="aboutPage" />
               </div>
             </Col>
           </Row>

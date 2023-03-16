@@ -39,18 +39,20 @@ function BasicExample() {
               <Nav.Link href="/about" eventKey="about">
                 About
               </Nav.Link>
-              <Button
-                className="nav-login-btn"
-                onClick={() => navigate("/login")}
-              >
-                Log In
-              </Button>
-              <Button
-                className="nav-sign-btn"
-                onClick={() => navigate("/login")}
-              >
-                Sign Up
-              </Button>
+              <div className="nav-buttons">
+                <Button
+                  className="nav-login-btn"
+                  onClick={() => navigate("/login?type=login")}
+                >
+                  Log In
+                </Button>
+                <Button
+                  className="nav-sign-btn"
+                  onClick={() => navigate("/login?type=signup")}
+                >
+                  Sign Up
+                </Button>
+              </div>
             </Nav>
           </Navbar.Collapse>
         </Container>
