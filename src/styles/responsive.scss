@@ -704,6 +704,71 @@ top: 0%;
         }
     }
 
+        .history-page-container {
+            .history-header {
+          
+    
+                h1 {
+                 
+                }
+    
+                p {
+             
+      
+                }
+            }
+    
+    
+            .history-content-container {
+         
+    
+                h2 {
+              
+                }
+    
+                p {
+                
+                }
+    
+                .history-previous-lists {
+                    .history-list-header {
+          
+    
+                        h2 {
+                        display: none;
+                        }
+    
+                        h3 {
+        
+    
+                        }
+    
+                    }
+    
+                    .previous-list {
+                        flex-direction: column;
+    
+                        .dates-col {
+                            p {
+                width: 100%;
+                            }
+                        }
+    
+                        .history-list-col {
+            
+                            p {
+                            margin-left: 0;
+                            }
+                        }
+    
+                        .list-popOver {
+                        
+                        }
+
+                    }
+                }
+            }
+        }
 
 
 

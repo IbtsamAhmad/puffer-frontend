@@ -8,6 +8,7 @@ import Pricing from "../pages/Pricing";
 import NoMatch from "../pages/NoMatch";
 import How from "../pages/How";
 import About from "../pages/About";
+import History from "../pages/History.scss";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} exact />
           <Route path="/how" element={<How />} />
+          <Route path="/history" element={<History />} />
           <Route path="/about" element={<About />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/createmycoverletter" element={<CoverLetter />} />
