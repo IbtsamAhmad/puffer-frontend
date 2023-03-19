@@ -73,6 +73,13 @@ function MyVerticallyCenteredModal(props) {
     </Modal>
   );
 }
+
+const showModal = (e) =>{
+  e.preventDefault();
+  console.log("showw Modal")
+  setModalShow(true);
+
+}
   return (
     <>
       <AuthNavbar />
@@ -115,11 +122,12 @@ function MyVerticallyCenteredModal(props) {
               <div>
                 <OverlayTrigger
                   placement="bottom"
-                  trigger="focus"
+                  trigger="click"
+                  // trigger="focus"
                   overlay={
-                    <Popover title="Popover bottom">
+                    <Popover title="Popover bottom" onClick={showModal}>
                       <div className="list-popContent">
-                        <p onClick={() => setModalShow(true)}>View</p>
+                        <p>View</p>
                       </div>
                     </Popover>
                   }
@@ -170,9 +178,10 @@ function MyVerticallyCenteredModal(props) {
               <div>
                 <OverlayTrigger
                   placement="bottom"
-                  trigger="focus"
+                  // trigger="focus"
+                  trigger="click"
                   overlay={
-                    <Popover title="Popover bottom">
+                    <Popover title="Popover bottom" onClick={showModal}>
                       <div className="list-popContent">
                         <p onClick={() => setModalShow(true)}>View</p>
                       </div>
@@ -225,11 +234,12 @@ function MyVerticallyCenteredModal(props) {
               <div>
                 <OverlayTrigger
                   placement="bottom"
-                  trigger="focus"
+                  trigger="click"
+                  // show={true}
                   overlay={
-                    <Popover title="Popover bottom">
+                    <Popover title="Popover bottom" onClick={showModal}>
                       <div className="list-popContent">
-                        <p onClick={() => setModalShow(true)}>View</p>
+                        <p>View</p>
                       </div>
                     </Popover>
                   }
