@@ -1,6 +1,7 @@
 .account-setting-container {
     background-color: rgb(249, 249, 250);
     height: 90vh;
+    overflow: hidden;
     .account-heading-container {
         background-color: rgb(255, 255, 255);
         border-top: 1px solid rgb(231, 233, 235);
@@ -23,6 +24,7 @@
         .active {
             background-color: rgba(101, 16, 193, 0.063) !important;
             color: rgb(101, 16, 193) !important;
+            border-radius: 10px;
 
             svg {
                 color: rgb(101, 16, 193) !important;

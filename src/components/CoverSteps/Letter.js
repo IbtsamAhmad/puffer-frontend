@@ -47,6 +47,7 @@ const Letter = ({ onButtonClick }) => {
             as="textarea"
             placeholder=""
             defaultValue=""
+            contentEditable
             //   className="profile-input"
           />
         </Form.Group>

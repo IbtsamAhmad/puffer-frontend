@@ -174,7 +174,7 @@ const Home = () => {
             cover letter rewriting technology - the ultimate solution for
             crafting a top-notch cover letter!
           </h2>
-          <a href="/">Try puffer fish.ai</a>
+          <a href="/">Try pufferfish.ai</a>
         </section>
         <div className="offer-block-up" />
         <section className="home-plans-container">
@@ -208,7 +208,7 @@ const Home = () => {
                 </li>
                 <li>
                   <div className="list-num">
-                    <span>3</span>
+                    <span>4</span>
                   </div>
                   3 credits = 3 cover letters
                 </li>
@@ -278,12 +278,6 @@ const Home = () => {
                   <div className="list-num">
                     <span>4</span>
                   </div>
-                  Ideal for trial
-                </li>
-                <li>
-                  <div className="list-num">
-                    <span>5</span>
-                  </div>
                   50 credits = 50 cover letters
                 </li>
               </ul>
@@ -312,17 +306,11 @@ const Home = () => {
                   <div className="list-num">
                     <span>3</span>
                   </div>
-                  Cost effective
-                </li>
-                <li>
-                  <div className="list-num">
-                    <span>4</span>
-                  </div>
                   Unbeatable savings
                 </li>
                 <li>
                   <div className="list-num">
-                    <span>5</span>
+                    <span>4</span>
                   </div>
                   100 credits = 100 cover letters
                 </li>

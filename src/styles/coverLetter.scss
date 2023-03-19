@@ -7,7 +7,7 @@
         padding: 44px 0 32px 0;
 
         .cover-heading-content {
-            width: 45%;
+        width: 860px;
 
             h1 {
                 font-size: 30px;
@@ -76,7 +76,7 @@
 
             h3 {
                 font-size: 15px;
-                font-weight: 400;
+                font-weight: 700;
                 color: #6b7280;
                 margin-bottom: 30px;
             }
@@ -89,6 +89,7 @@
                     font-size: 15px;
                     font-weight: 400;
                     color: #3f4254;
+                        margin-bottom: 5px;
                     img{
                         padding-right: 8px;
                     }
@@ -139,7 +140,9 @@
         }
 
         textarea {
-            height: 300px;
+            min-height: 300px;
+            height: auto;
+            overflow: hidden;
         }
 
         .about-btn {
@@ -158,6 +161,7 @@
             min-height: 45px;
             border: none;
             width: 150px;
+            margin-bottom: 60px;
 
             &:hover {
                 background: rgb(153, 224, 20);
@@ -201,7 +205,7 @@
 
 .RSPBprogressBar {
     width: 45%;
-    height: 2px;
+    height: 5px !important;
     line-height: 1;
     border-radius: 10px;
     position: relative;

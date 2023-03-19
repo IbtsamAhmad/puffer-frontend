@@ -55,7 +55,7 @@ const AuthNavbar = () => {
               <Nav.Link href="/about" eventKey="about">
                 About Us
               </Nav.Link>
-              <Nav.Link href="/" eventKey="about">
+              <Nav.Link href="/history" eventKey="history">
                 History
               </Nav.Link>
               <div className="nav-buttons">
@@ -65,7 +65,12 @@ const AuthNavbar = () => {
                 >
                   5 Credits Remaining
                 </Button>
-                <Button className="nav-letterBtn">Create Letter</Button>
+                <Button
+                  className="nav-letterBtn"
+                  onClick={() => navigate("/createmycoverletter")}
+                >
+                  Create Letter
+                </Button>
               </div>
             </Nav>
           </Navbar.Collapse>
@@ -107,22 +112,24 @@ const AuthNavbar = () => {
                     <p>Admin</p>
                   </div>
                   <div className="pop-div">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      color="rgba(107, 114, 128, 1)"
-                    >
-                      <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                      <circle cx="12" cy="7" r="4"></circle>
-                    </svg>
-                    <p> My account</p>
+                    <a href="/account?tab=profile">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="20"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        color="rgba(107, 114, 128, 1)"
+                      >
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                      </svg>
+                      <p> My account</p>
+                    </a>
                   </div>
                   <div className="pop-div">
                     <svg

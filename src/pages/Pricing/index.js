@@ -14,7 +14,7 @@ const Pricing = () => {
             <div className="home-header">
               <h1>Gift yourself the best opportunity you can</h1>
               <h2>Pricing</h2>
-              <a href="/">Try puffer fish.ai</a>
+              <a href="/">TRY PUFFERFISH.AI</a>
             </div>
             <section className="home-plans-container">
               <h1>Clear Pricing Makes It Easy</h1>
@@ -115,7 +115,7 @@ const Pricing = () => {
                       </div>
                       Cost effective
                     </li>
-               
+
                     <li>
                       <div className="list-num">
                         <span>4</span>
@@ -171,7 +171,7 @@ const Pricing = () => {
                 AI-powered cover letter rewriting technology - the ultimate
                 solution for crafting a top-notch cover letter!
               </h2>
-              <a href="/">Try puffer fish.ai</a>
+              <a href="/">TRY PUFFERFISH.AI</a>
             </section>
           </div>
           <Footer />

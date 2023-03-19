@@ -50,6 +50,7 @@ const PageTwo = ({ onButtonClick }) => {
             placeholder=""
             defaultValue=""
             maxLength={4000}
+            contentEditable
             onChange={descriptionHandler}
             //   className="profile-input"
           />
